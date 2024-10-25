@@ -11,13 +11,13 @@ display.init(buf)
 
 while True:    
     
-    # fill the screen yellow
-    display.set_pen(0, 0, 255)
+    # fill the screen blue
+    display.set_pen(100, 100, 225)
     display.clear()         
 
     # draw title
-    display.set_pen(0, 0, 0)
-    display.text("CanSat", 0, 0, 240, 5)
+    display.set_pen(225, 255, 255)
+    display.text("CanSat- fulford", 0, 0, 240, 4)
     
    
     
